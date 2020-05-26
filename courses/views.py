@@ -2,14 +2,14 @@ from django.shortcuts import render
 from django.contrib import auth as authe
 import pyrebase
 config = {
-  'apiKey': "AIzaSyCZRreQ8JOOI8JywqSlHV0NHuIZdm3xsmA",
-  'authDomain': "filesharing-9e2ca.firebaseapp.com",
-  'databaseURL': "https://filesharing-9e2ca.firebaseio.com",
-  'projectId': "filesharing-9e2ca",
-  'storageBucket': "filesharing-9e2ca.appspot.com",
-  'messagingSenderId': "365933125226",
-  'appId': "1:365933125226:web:48ca391d66571e34cc7413",
-  'measurementId': "G-8MEK13RPWZ"
+  "apiKey": "AIzaSyCZRreQ8JOOI8JywqSlHV0NHuIZdm3xsmA",
+  "authDomain": "filesharing-9e2ca.firebaseapp.com",
+  "databaseURL": "https://filesharing-9e2ca.firebaseio.com",
+  "projectId": "filesharing-9e2ca",
+  "storageBucket": "filesharing-9e2ca.appspot.com",
+  "messagingSenderId": "365933125226",
+  "appId": "1:365933125226:web:48ca391d66571e34cc7413",
+  "measurementId": "G-8MEK13RPWZ"
 }
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
